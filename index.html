@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aarsh Modi | Rutgers Business School Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { scarlet: { DEFAULT: '#CC0033', dark: '#A30029', light: '#FDECEF' } },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <style>html { scroll-behavior: smooth; }</style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-200">
+    <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2">
+        <span class="bg-scarlet text-white font-extrabold text-sm px-2 py-1 rounded">RBS</span>
+        <span class="font-bold text-gray-900">Aarsh Modi</span>
+      </a>
+      <div class="flex items-center gap-4 sm:gap-6 text-sm font-medium">
+        <a href="#about" class="hover:text-scarlet">About</a>
+        <a href="#skills" class="hover:text-scarlet">Skills</a>
+        <a href="#projects" class="hover:text-scarlet">Projects</a>
+        <a href="Modi.Aarsh.pdf" class="hidden sm:inline-block bg-scarlet hover:bg-scarlet-dark text-white px-4 py-2 rounded-lg">Download Resume</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero / Personal Statement -->
+  <section id="about" class="bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24 grid md:grid-cols-3 gap-10 items-center">
+      <div class="flex flex-col items-center md:items-start">
+        <img src="Headshot.jpeg" alt="Headshot of Aarsh" class="w-44 h-44 rounded-full object-cover border-4 border-scarlet shadow-md">
+        <p class="mt-4 text-sm text-gray-500">Rutgers Business School Student</p>
+      </div>
+      <div class="md:col-span-2">
+        <p class="text-scarlet font-semibold uppercase tracking-wider text-sm">Rutgers Business School &middot; New Brunswick</p>
+        <h1 class="mt-2 text-4xl sm:text-5xl font-extrabold text-gray-900">Aarsh Modi</h1>
+        <p class="mt-2 text-gray-500">B.S. Finance, Minor in Economics &middot; Class of 202X (Expected)</p>
+        <p class="mt-6 text-xl sm:text-2xl leading-relaxed text-gray-800">
+          I am a Rutgers Finance student and PwC Assurance intern who combines financial analysis, data skills, and entrepreneurial experience to turn complex information into clear business decisions.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="mailto:aarsh.modi@rutgers.edu" class="bg-scarlet hover:bg-scarlet-dark text-white font-semibold px-5 py-3 rounded-lg">Email Me</a>
+          <a href="https://www.linkedin.com/in/aarsh-modi/" target="_blank" class="border border-gray-300 hover:border-scarlet hover:text-scarlet font-semibold px-5 py-3 rounded-lg">LinkedIn Profile &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+    <h2 class="text-3xl font-extrabold text-gray-900">Skills</h2>
+    <p class="mt-2 text-gray-500">Technical and professional strengths built through coursework and internships.</p>
+
+    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white rounded-xl border border-gray-200 p-6 border-t-4 border-t-scarlet">
+        <h3 class="font-bold text-gray-900">Finance &amp; Valuation</h3>
+        <div class="mt-4 flex flex-wrap gap-2 text-sm">
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Financial Modeling</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">DCF &amp; Comps</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Equity Research</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">M&amp;A Support</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Real Estate PE</span>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-200 p-6 border-t-4 border-t-scarlet">
+        <h3 class="font-bold text-gray-900">Data &amp; Technology</h3>
+        <div class="mt-4 flex flex-wrap gap-2 text-sm">
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Python</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">SQL</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Advanced Excel</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Tableau</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Bloomberg Terminal</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">HTML &amp; CSS</span>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-200 p-6 border-t-4 border-t-scarlet">
+        <h3 class="font-bold text-gray-900">Professional</h3>
+        <div class="mt-4 flex flex-wrap gap-2 text-sm">
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Audit &amp; Assurance</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Client Communication</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Business Development</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Presentations</span>
+          <span class="bg-scarlet-light text-scarlet-dark px-3 py-1 rounded-full">Leadership</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-white border-y border-gray-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+      <h2 class="text-3xl font-extrabold text-gray-900">Projects</h2>
+      <p class="mt-2 text-gray-500">Selected work across finance, technology, and economics.</p>
+
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <article class="flex flex-col rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-scarlet transition">
+          <span class="text-xs font-bold uppercase tracking-wider text-scarlet">Finance</span>
+          <h3 class="mt-2 text-lg font-bold text-gray-900">Forecasting Prep</h3>
+          <p class="mt-3 text-sm text-gray-600 flex-1">Forecasted a company's financial performance using historical data and market trends along with assumptions made for the company.</p>
+          <p class="mt-4 text-xs text-gray-400">Tools &middot; Excel</p>
+          <a href="Forecasting-Prep.xlsx" class="mt-4 font-semibold text-scarlet hover:underline">View Excel Sheet &rarr;</a>
+        </article>
+
+        <article class="flex flex-col rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-scarlet transition">
+          <span class="text-xs font-bold uppercase tracking-wider text-scarlet">Entrepreneurship</span>
+          <h3 class="mt-2 text-lg font-bold text-gray-900">LocalLift Media</h3>
+          <p class="mt-3 text-sm text-gray-600 flex-1">Founded a web design business that builds modern websites for small businesses. Designed the company site with a working contact form and created the sales script used to pitch local clients.</p>
+          <p class="mt-4 text-xs text-gray-400">Tools &middot; HTML, CSS, JavaScript, Formspree</p>
+          <a href="https://YOUR-LOCALLIFT-URL.com" target="_blank" class="mt-4 font-semibold text-scarlet hover:underline">Visit Live Site &rarr;</a>
+        </article>
+
+        <article class="flex flex-col rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-scarlet transition">
+          <span class="text-xs font-bold uppercase tracking-wider text-scarlet">Economics</span>
+          <h3 class="mt-2 text-lg font-bold text-gray-900">Behavioral Game Theory in Antitrust</h3>
+          <p class="mt-3 text-sm text-gray-600 flex-1">Wrote a thesis examining how behavioral game theory can improve antitrust analysis by modeling how real firms deviate from purely rational competition.</p>
+          <p class="mt-4 text-xs text-gray-400">Focus &middot; Industrial Organization, Competition Policy</p>
+          <a href="projects/antitrust-thesis.pdf" class="mt-4 font-semibold text-scarlet hover:underline">Read Paper &rarr;</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="max-w-6xl mx-auto px-4 sm:px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+    <p>&copy; 2026 Aarsh Modi &middot; Hosted on GitHub Pages</p>
+    <div class="flex gap-5">
+      <a href="https://www.linkedin.com/in/aarsh-modi/" target="_blank" class="hover:text-scarlet">LinkedIn</a>
+      <a href="mailto:aarsh.modi@rutgers.edu" class="hover:text-scarlet">Email</a>
+      <a href="Modi.Aarsh.pdf" class="hover:text-scarlet">Resume PDF</a>
+    </div>
+  </footer>
+
+</body>
+</html>
